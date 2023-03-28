@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile-sass": "sass src/scss/main.scss dist/css/main.css",
+    "watch-sass": "sass src/scss/main.scss dist/css/main.css --watch",
+    "autoprefixer": "postcss --use autoprefixer -r dist/css/main.css",
+    "build": "npm run compile-sass && npm run autoprefixer",
+    "watch": "concurrently \"npm run watch-sass\" \"npm run watch-js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@popperjs/core": "^2.11.7",
+    "autoprefixer": "^10.4.14",
+    "bootstrap": "^5.2.3",
+    "concurrently": "^7.6.0",
+    "jquery": "^3.6.4",
+    "popper.js": "^1.16.1",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "sass": "^1.60.0"
+  }
+}
