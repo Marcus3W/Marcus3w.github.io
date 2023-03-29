@@ -39,10 +39,10 @@
             <div class="collapse navbar-collapse" id="navbarButton">
                 <ul class="navbar-nav mr-auto mb-2 mb-md-0 align-items-center">
                     <li><a class="link-dark active" aria-current="page" href="#">Home</a></li>
-                    <li><a class="link-dark" href="#">About</a></li>
-                    <li><a class="link-dark" href="#">Projects</a></li>
-                    <li><a class="link-dark" href="#">Blog</a></li>
-                    <li><a class="link-dark" href="#">Contact Me</a></li>
+                    <li><a class="link-dark" href="#aboutme">About</a></li>
+                    <li><a class="link-dark" href="#projects">Projects</a></li>
+<!--                    <li><a class="link-dark" href="#">Blog</a></li>-->
+                    <li><a class="link-dark" href="#contactme">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -71,7 +71,7 @@
             </div>
             <hr>
             <!-- NEW CONTAINER -->
-            <div class="container-fluid p-0 pb-0">
+            <div id="aboutme" class="container-fluid p-0 pb-0">
                 <div class="row text-center">
                     <div class="col-12 text-left">
                         <div class="col-12">
@@ -275,7 +275,7 @@
                         <div class="mb-5">
                             <hr>
                             <!-- Links -->
-                            <div class="display-5 text-secondary mt-3 mb-3">Contact me</div>
+                            <div id="contactme" class="display-5 text-secondary mt-3 mb-3">Contact me</div>
                             <ul class="list-unstyled">
                                 <li class="list-inline-item mb-2">
                                     <a href="https://github.com/Marcus3W" class="btn-floating btn-fb mx-2">
@@ -310,7 +310,7 @@
 <!-- END - MAIN TEXT -->
 
 <!-- PROJECTS -->
-<section class="container-fluid py-5 projects"
+<section id="projects" class="container-fluid py-5 projects"
          style="background:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./img/background-project1.jpg) no-repeat; background-size: cover;">
     <h2 class="display-4 text-secondary-lighter text-center pb-3 my-4">Projects</h2>
 
@@ -500,10 +500,10 @@
                 <nav class="display-6 text-primary mt-3 mb-3">Links</nav>
                 <ul class="list-unstyled">
                     <li><a aria-current="page" href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Blog</a></li>
-                    <li><a href="#">Contact Me</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+<!--                    <li><a href="#">Blog</a></li>-->
+                    <li><a href="#contactme">Contact Me</a></li>
                 </ul>
             </div>
 
@@ -559,44 +559,44 @@
     <!-- Break point -->
 
 
-    <!-- NEWSLETTER CONTAINER -->
-    <div class="container">
+<!--    &lt;!&ndash; NEWSLETTER CONTAINER &ndash;&gt;-->
+<!--    <div class="container">-->
 
-        <!-- Newsletter Information Row-->
-        <div class="row align-items-center">
-            <div class="col-3"></div> <!-- Dummy Newsletter column-->
-            <!-- Main Newsletter column-->
-            <div class="col-6 text-center">
-                <div class="display-5 text-primary-darker mb-2">Subscribe to my blog</div>
-                <p class="text-muted small">Stay up to date with my adventures and development.</p>
-            </div>
-            <div class="col-3"></div> <!-- Dummy Newsletter column-->
-        </div> <!-- End of Newsletter Information Row -->
+<!--        &lt;!&ndash; Newsletter Information Row&ndash;&gt;-->
+<!--        <div class="row align-items-center">-->
+<!--            <div class="col-3"></div> &lt;!&ndash; Dummy Newsletter column&ndash;&gt;-->
+<!--            &lt;!&ndash; Main Newsletter column&ndash;&gt;-->
+<!--            <div class="col-6 text-center">-->
+<!--                <div class="display-5 text-primary-darker mb-2">Subscribe to my blog</div>-->
+<!--                <p class="text-muted small">Stay up to date with my adventures and development.</p>-->
+<!--            </div>-->
+<!--            <div class="col-3"></div> &lt;!&ndash; Dummy Newsletter column&ndash;&gt;-->
+<!--        </div> &lt;!&ndash; End of Newsletter Information Row &ndash;&gt;-->
 
-        <!-- Newsletter Row - Email -->
-        <div class="row align-items-center">
-            <div class="col"></div><!-- Dummy Newsletter column-->
-            <!-- Main Newsletter column-->
-            <div class="row text-center justify-content-center">
-                <div class="col-auto">
-                    <div class="input-group input-group-md mb-3">
-                        <input class="form-control" type="email" placeholder="Email address"
-                               aria-label="Recipient's username" aria-describedby="button-addon2">
-                        <div class="input-group-append">
-                            <button class="btn btn-primary" id="button-addon2" type="button"><b>Subscribe</b>
-                            </button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col"></div><!-- Dummy Newsletter column-->
-        </div>
-        <!-- End of Newsletter Row -->
-    </div>
+<!--        &lt;!&ndash; Newsletter Row - Email &ndash;&gt;-->
+<!--        <div class="row align-items-center">-->
+<!--            <div class="col"></div>&lt;!&ndash; Dummy Newsletter column&ndash;&gt;-->
+<!--            &lt;!&ndash; Main Newsletter column&ndash;&gt;-->
+<!--            <div class="row text-center justify-content-center">-->
+<!--                <div class="col-auto">-->
+<!--                    <div class="input-group input-group-md mb-3">-->
+<!--                        <input class="form-control" type="email" placeholder="Email address"-->
+<!--                               aria-label="Recipient's username" aria-describedby="button-addon2">-->
+<!--                        <div class="input-group-append">-->
+<!--                            <button class="btn btn-primary" id="button-addon2" type="button"><b>Subscribe</b>-->
+<!--                            </button>-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--            <div class="col"></div>&lt;!&ndash; Dummy Newsletter column&ndash;&gt;-->
+<!--        </div>-->
+<!--        &lt;!&ndash; End of Newsletter Row &ndash;&gt;-->
+<!--    </div>-->
 
-    <!-- Break point -->
-    <hr>
-    <!-- Break point -->
+<!--    &lt;!&ndash; Break point &ndash;&gt;-->
+<!--    <hr>-->
+<!--    &lt;!&ndash; Break point &ndash;&gt;-->
 
     <!-- COPYRIGHT -->
     <div class="text-center pb-3">
